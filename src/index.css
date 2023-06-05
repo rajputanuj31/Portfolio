@@ -1,13 +1,48 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Roboto+Slab:wght@300&display=swap');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+  overflow-x: hidden;
+  
+}
+body {
+  width: 100%;
+  background-color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2,
+h4,
+p,
+a {
+  color: black;
+  text-decoration: none;
+}
+.btn{
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px ;
+  background: linear-gradient(180deg, #fde50f 26.71%, #fb982f 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+  
+}
+.btn-light{
+  flex: 2;
+  width: 6rem;
+}
+.btn:hover{
+  background: rgba(255,255,255,0.2);
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid #fde50f;
+  
 }
