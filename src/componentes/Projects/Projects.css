@@ -7,12 +7,43 @@
 }
 
 .projects img {
+    display: block;
+    position: relative;
     width: 25rem;
     height: 15rem;
     margin-bottom: 5px;
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
     transition: 0.5s;
+    opacity: 1;
+}
+.details{
+    width: 25rem;
+    height: 15rem;
+    position: absolute;
+    background-color: #0000009c;
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+    border-radius: 19px;
+    opacity: 0;
+    transition: .5s ease;
+    margin-bottom: 20px;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    list-style-type: auto;;    
+  }
+.swiper-slide:hover .details{
+    opacity: 1;
+}
+.swiper-slide:hover img{
+    opacity: 0.1;
 }
 .tech{
     display: flex;
@@ -23,7 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 5rem;
+    width: 10rem;
     margin: 3px;
     font-size: 17px;
     background-color: #e9e7e7;
@@ -77,6 +108,10 @@
         height: 10rem;
         margin-bottom: 10px;
     }
+    .details{
+        width: 20rem;
+        height: 10rem;
+    }
     .projects .swiper{
         height: 40vh;
    }
@@ -96,6 +131,10 @@
         width: 22rem;
         height: 12rem;
         margin-bottom: 10px;
+    }
+    .details{
+        width: 22rem;
+        height: 12rem;
     }
     .projects .swiper{
         height: 50vh;
