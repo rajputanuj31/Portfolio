@@ -4,6 +4,7 @@
     flex-direction: row;
     position: fixed;
     justify-content: space-between;
+    transition: all;
     align-items: center;
     padding: 2rem;
     width: 100%;
@@ -52,6 +53,10 @@
         font-size: 25px;
         padding: 0 10px;
     }
+}
+.transparency-removed{
+    background-color: rgb(181, 233, 233);
+    transition: all;
 }
 @media screen and (min-width: 480px) and (max-width:900px){
     .Nav{

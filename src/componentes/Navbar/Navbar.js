@@ -1,8 +1,22 @@
 import "./Navbar.css"
-import React from 'react'
+import React, { useEffect } from "react"
 import { Link } from "react-scroll"
 
 const Navbar = () => {
+
+    const changeColor = () => {
+        const NavBarElement = document.getElementById("Navbar");
+        if(window.scrollY >= 70){
+            NavBarElement.classList.add("transparency-removed");
+        }
+        else{
+            NavBarElement.classList.remove("transparency-removed");
+        }
+    } 
+
+    useEffect(()=>{
+        window.addEventListener("scroll", changeColor);
+    },[])
 return (
     <div className="Nav" id="Navbar">
         <Link to="/">
