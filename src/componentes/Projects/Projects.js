@@ -29,37 +29,63 @@ const Projects = () => {
       >
         <SwiperSlide>
           <div className='tech'>
-          <span >Html</span>
-          <span >Css</span>
+            <span >Wine Shop</span>
           </div>
           <img src={project1} alt="" />
+          <div className='details'>
+            <div class="text">
+              <li>Simle Frontend</li>
+              <li>Html, Css</li>
+              <li>Responsive</li>
+            </div>
+          </div>
           <div className='buttons'>
-            <button className='btn btn-light' style={{ marginLeft: "6rem" }} >Github</button>
-            <button className='btn btn-light'>Demo</button>
+            <a href="https://github.com/rajputanuj31/madirashop" target=" ">
+              <button className='btn btn-light' style={{ marginLeft: "6rem" }} >Github</button>
+            </a>
+            <a href="https://rajputanuj31.github.io/madirashop/" target=" ">
+              <button className='btn btn-light'>Demo</button>
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className='tech'>
-          <span >Html</span>
-          <span >Css</span>
-          <span >Javascript</span>
+          <div className='tech'>
+            <span >Music App</span>
           </div>
           <img src={project3} alt="" />
+          <div className='details'>
+            <div class="text">
+              <li>Fully Functioning</li>
+              <li>Html, Css, Javascript</li>
+              <li>Responsive</li>
+              <li>Song search function</li>
+            </div>
+          </div>
           <div className='buttons'>
             <button className='btn btn-light' style={{ marginLeft: "6rem" }} >Github</button>
             <button className='btn btn-light'>Demo</button>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className='tech'>
-          <span >Html</span>
-          <span >Css</span>
-          <span >React</span>
+          <div className='tech'>
+            <span >To do App</span>
           </div>
           <img src={project2} alt="" />
+          <div className='details'>
+            <div class="text">
+              <li>Fully Functioning</li>
+              <li>Html, Css, React</li>
+              <li>Responsive</li>
+              <li>Use Local Storage</li>
+            </div>
+          </div>
           <div className='buttons'>
-            <button className='btn btn-light' style={{ marginLeft: "6rem" }} >Github</button>
-            <button className='btn btn-light'>Demo</button>
+            <a href="https://github.com/rajputanuj31/Daily_Goals" target=" ">
+              <button className='btn btn-light' style={{ marginLeft: "6rem" }} >Github</button>
+            </a>
+            <a href="https://rajputanuj31.github.io/Daily_Goals/" target=" ">
+              <button className='btn btn-light'>Demo</button>
+            </a>
           </div>
         </SwiperSlide>
       </Swiper>
