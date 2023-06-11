@@ -7,6 +7,7 @@ import insta from "../../asset/Insta.png"
 import github from "../../asset/github-icon.png"
 import linkedin from "../../asset/Linkedin.png"
 import background from "../../asset/background.jpg"
+import { motion } from 'framer-motion';
 
 const Conatct = () => {
     const form = useRef();
@@ -43,7 +44,11 @@ const Conatct = () => {
                         </p>
                         <span>rajputanuj041@gmail.com</span>
                     </div>
-                    <div className='c-right'>
+                    <motion.div className='c-right'
+                        initial={{ opacity: 0, scale: 0, y: 50 }}
+                        whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                        transition={{ duration: 0.8 }}
+                    >
                         <form ref={form} onSubmit={sendEmail}>
                             <input type="text" name='user_name' className='user' placeholder='Name' value={Name} onChange={(e) => setName(e.target.value)} />
                             <input type="email" name='user_email' className='user' placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)} />
@@ -57,21 +62,37 @@ const Conatct = () => {
                                 style={{ background: "#e89de8;" }}
                             ></div>
                         </form>
-                    </div>
+                    </motion.div>
                 </div>
                 <div className='social'>
-                <a href="https://github.com/rajputanuj31" target=" ">
+                    <motion.a href="https://github.com/rajputanuj31" target=" "
+                        initial={{ opacity: 0, scale: 0, x: 5 }}
+                        whileInView={{ opacity: 1, scale: 1, x: 0 }}
+                        transition={{ duration: 0.2 }}
+                    >
                         <img src={github} alt="github" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/anuj-rajput-054b69230/" target=" ">
+                    </motion.a>
+                    <motion.a href="https://www.linkedin.com/in/anuj-rajput-054b69230/" target=" "
+                        initial={{ opacity: 0, scale: 0, x: 10 }}
+                        whileInView={{ opacity: 1, scale: 1, x: 0 }}
+                        transition={{ duration: 0.2, delay: 0.20 }}
+                    >
                         <img src={linkedin} alt="linkedin" />
-                    </a>
-                    <a href="https://www.instagram.com/_its.rjpt_anuj/?igshid=Y2M0YTlkZGNmOQ%3D%3D" target=" ">
+                    </motion.a>
+                    <motion.a href="https://www.instagram.com/_its.rjpt_anuj/?igshid=Y2M0YTlkZGNmOQ%3D%3D" target=" "
+                        initial={{ opacity: 0, scale: 0, x: 10 }}
+                        whileInView={{ opacity: 1, scale: 1, x: 0 }}
+                        transition={{ duration: 0.2, delay: 0.40 }}
+                    >
                         <img src={insta} alt="Instagram" />
-                    </a>
-                    <a href="https://twitter.com/iamRjptAnuj?t=sjByZgDasxqPysJUpUxZCg&s=08" target=" ">
+                    </motion.a>
+                    <motion.a href="https://twitter.com/iamRjptAnuj?t=sjByZgDasxqPysJUpUxZCg&s=08" target=" "
+                        initial={{ opacity: 0, scale: 0, x: 10 }}
+                        whileInView={{ opacity: 1, scale: 1, x: 0 }}
+                        transition={{ duration: 0.2, delay: 0.60 }}
+                    >
                         <img src={twitter} alt="twitter" />
-                    </a>
+                    </motion.a>
                 </div>
             </div>
 

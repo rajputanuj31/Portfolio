@@ -16,13 +16,19 @@ import python from "../../asset/python.png"
 import sql from "../../asset/sql.png"
 import ts from "../../asset/ts.png"
 import joomla from "../../asset/joomla.png"
+import { motion } from 'framer-motion'
 
 
 const Projects = () => {
     return (
-        <div className='skills' id='Skills' >
+        <div className='skills' id='Skills' 
+        >
             {/* <img src={background} className='background' alt="" /> */}
-            <div className='awesome'>
+            <motion.div className='awesome'
+            initial = {{opacity:0,scale:0 ,x:-50}}
+            whileInView={{opacity:1,scale:1,x:0}}
+            transition={{duration:0.4}}
+            >
              <span>My Awesome</span>
              <span>Skills</span>
              <span>Lorem, ipsum dolor sit 
@@ -31,8 +37,12 @@ const Projects = () => {
                 Saepe nulla in reprehenderit.</span>
                 <button className='btn' style={{width: '8rem'}}>Download CV</button>
                 <div className='blur blur-1' style={{background: '#ABF1FF94'}}></div>
-            </div>
-            <div className='cards'>
+            </motion.div>
+            <motion.div className='cards'
+            initial = {{opacity:0,scale:0 ,x:50}}
+            whileInView={{opacity:1,scale:1,x:0}}
+            transition={{duration:0.8}}
+            >
                 <div title='HTML'>
                     <Card
                     image={html}
@@ -109,7 +119,7 @@ const Projects = () => {
                     />
                 </div>
 
-            </div>
+            </motion.div>
             
         </div>
     )
