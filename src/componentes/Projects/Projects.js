@@ -10,7 +10,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-
 const Projects = () => {
   return (
     <div className='projects' id='Projects'>
