@@ -1,6 +1,6 @@
 .contact{
     display: flex;
-    height: 120vh;
+    /* height: 120vh; */
     align-items: center;
     justify-content: center;
     position: relative;
@@ -18,7 +18,8 @@
 }
 .box{
     width: 70%;
-    height: 80vh;
+    /* height: 80vh; */
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,7 +120,7 @@ textarea{
         flex-direction: column;
     }
     .box{
-        height: 130vh;
+        /* height: 130vh; */
     }
 }
 @media (min-width: 480px) and (max-width:900px){
@@ -142,6 +143,6 @@ textarea{
         flex-direction: column;
     }
     .box{
-        height: 110vh;
+        /* height: 110vh; */
     }
 }
