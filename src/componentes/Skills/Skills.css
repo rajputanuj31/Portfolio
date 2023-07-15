@@ -1,7 +1,7 @@
 .skills {
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
     background-color: #a1e8e88f;
 }
@@ -60,7 +60,6 @@
     .skills {
         display: inline-block;
         padding: 10px;
-        height: 110vh;
     }
 
     .awesome {
@@ -86,7 +85,7 @@
         align-items: center;
         justify-content: center;
         padding: 20px 0px 0px 0px;
-        height: 90vh;
+        /* height: 90vh; */
     }
 
     .awesome {

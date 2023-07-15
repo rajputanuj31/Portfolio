@@ -35,7 +35,7 @@
     font-size: 3rem;
 }
 .name>:nth-child(2){
-    color: #2b8cfa;
+    color: #2b2cfa;
     font-weight: bold;
     font-size: 3rem;
 }
@@ -91,7 +91,7 @@
     .hero{
         display: flex;
         flex-direction: column;
-        height: 140vh;
+        /* height: 140vh; */
     }
     .left{
         display: flex;
@@ -111,7 +111,7 @@
     .hero{
         display: flex;
         flex-direction: column;
-        height: 140vh;
+        /* height: 140vh; */
     }
     .left{
         display: flex;
