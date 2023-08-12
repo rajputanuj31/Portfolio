@@ -31,11 +31,9 @@ const Projects = () => {
             >
              <span>My Awesome</span>
              <span>Skills</span>
-             <span>Lorem, ipsum dolor sit 
-                amet consectetur adipisicing elit. Quis, facilis ullam! 
-                <br/>
-                Saepe nulla in reprehenderit.</span>
-                <button className='btn' style={{width: '8rem'}}>Download CV</button>
+             <span style={{fontSize:"20px"}}>Here, I display my skills in front-end development by creating
+              engaging <br/>blockchain interfaces and 
+             coding dynamic websites.</span>
                 <div className='blur blur-1' style={{background: '#ABF1FF94'}}></div>
             </motion.div>
             <motion.div className='cards'
