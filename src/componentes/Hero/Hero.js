@@ -9,6 +9,8 @@ import FloatingDiv from "../FloatingDiv/FloatingDiv"
 import logo from "../../asset/logo4.png"
 import logo2 from "../../asset/logo5.png"
 import { motion } from "framer-motion"
+import Textanimation from "../Animation/TextAnimation"
+import Resume from "./AnujRajputResume.pdf"
 
 const Hero = () => {
     return (
@@ -16,21 +18,14 @@ const Hero = () => {
             {/* <img src={background} className='background' alt="" /> */}
             <div className="left">
                 <div className="name">
-                    <motion.span
-                        initial={{ opacity: 0, scale: 0, x: 50 }}
-                        whileInView={{ opacity: 1, scale: 1, x: 0 }}
-                        transition={{ duration: 0.5 }}
-                    >Hi! I Am</motion.span>
-                    <motion.span
-                        initial={{ opacity: 0, scale: 0, x: 50 }}
-                        whileInView={{ opacity: 1, scale: 1, x: 0 }}
-                        transition={{ duration: 0.5 }}
-                    >Anuj Rajput</motion.span>
-                    <span>Lorem, ipsum dolor sit amet consectetur
-                        adipisicing elit. Vitae delectus et natus
-                        necessitatibus amet ipsam itaque quia tenetur,
-                        inventore deleniti. Deleniti, minus vel.</span>
-                    <button className="btn btn-light">Hire me</button>
+                    <span>Hi! I Am</span>
+                    <Textanimation/>
+                    <span style={{fontSize:"25px"}}>Welcome to my portfolio showcasing <span style={{color:"#f4fa2b", fontWeight:"bold"}}>frontend</span> expertise 
+                        and a journey 
+                        into the transformative world of <span style={{color:"#f4fa2b", fontWeight:"bold"}}>blockchain...</span></span>
+                        <a href={Resume} download>
+                <button className='btn' style={{width: '8rem'}}>Download CV</button>
+                </a>
                     <div className="icons">
                         <motion.a href="https://github.com/rajputanuj31" target=" "
                             initial={{ opacity: 0, scale: 0, x: 5 }}

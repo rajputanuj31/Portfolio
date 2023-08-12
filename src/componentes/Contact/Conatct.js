@@ -38,9 +38,9 @@ const Conatct = () => {
                     <div className='c-left'>
                         <span>Get in touch</span>
                         <span>Contact me</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Nostrum fugiat provident ab tempore hic atque nam possimus mollitia
-                            exercitationem, distinctio, rerum qui natus molestiae inventore!
+                        <p style={{fontSize:"20px"}}>For inquiries or project discussions, please feel free
+                             to get in touch with me via email. I'm eager to hear about potential 
+                            opportunities and showcase my portfolio work.
                         </p>
                         <span>rajputanuj041@gmail.com</span>
                     </div>
