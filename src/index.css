@@ -11,9 +11,13 @@ html{
 }
 body {
   width: 100%;
-  background-color: white;
   overflow-x: hidden;
   overflow-y: hidden;
+  background: url(asset/background4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1,
@@ -31,7 +35,7 @@ a {
   font-size: 16px;
   padding: 11px ;
   background: linear-gradient(180deg, #fde50f 26.71%, #fb982f 99.36%);
-  box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+  box-shadow: 0px 5px 10px 3px rgba(251,161,40,0.42);
   
 }
 .btn-light{

@@ -12,16 +12,17 @@
     color: black;
     z-index: 67;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.10)!important;
+    backdrop-filter: blur(10px);
 }
 .Nav h1{
     font-family: "Mrs Saint Delafield";
     font-size: 2.5rem;
     font-weight: 400;
     margin-left: 90px;
+    color: white;
 }
 .Nav ul a:hover{
    cursor: pointer;
-   color: rgb(32, 75, 250);
    transform: scale(1.1);
 }
 .Nav-menu {
@@ -31,6 +32,7 @@
 
 .Nav-menu li {
     padding: 0 2rem;
+    color: white;
 }
 @media screen and (max-width: 480px){
     .Nav{
@@ -54,7 +56,7 @@
     }
 }
 .transparency-removed{
-    background-color: rgba(199, 241, 241, 0.726);
+    background-color: rgba(0,0,0,.10);
     transition: all;
 }
 @media screen and (min-width: 480px) and (max-width:900px){

@@ -1,6 +1,6 @@
 import "./Hero.css"
 import React from 'react'
-import myimage from "../../asset/edited.png"
+import myimage from "../../asset/my-image.png"
 import twitter from "../../asset/twitter.png"
 import insta from "../../asset/Insta.png"
 import github from "../../asset/github-icon.png"
@@ -8,20 +8,19 @@ import linkedin from "../../asset/Linkedin.png"
 import FloatingDiv from "../FloatingDiv/FloatingDiv"
 import logo from "../../asset/logo4.png"
 import logo2 from "../../asset/logo5.png"
-import background from "../../asset/background5.jpg"
 import { motion } from "framer-motion"
 
 const Hero = () => {
     return (
         <div className="hero" id="Hero">
-            <img src={background} className='background' alt="" />
+            {/* <img src={background} className='background' alt="" /> */}
             <div className="left">
                 <div className="name">
                     <motion.span
                         initial={{ opacity: 0, scale: 0, x: 50 }}
                         whileInView={{ opacity: 1, scale: 1, x: 0 }}
                         transition={{ duration: 0.5 }}
-                    >Hy! I Am</motion.span>
+                    >Hi! I Am</motion.span>
                     <motion.span
                         initial={{ opacity: 0, scale: 0, x: 50 }}
                         whileInView={{ opacity: 1, scale: 1, x: 0 }}
@@ -70,13 +69,6 @@ const Hero = () => {
                 <div style={{ top: '-4%', left: '70%' }}>
                     <FloatingDiv image={logo} txt1='Web' txt2='Developer' />
                 </div>
-                <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
-                <div className="blur" style={{
-                    background: '#C1F5FF',
-                    top: '10rem',
-                    width: '21rem',
-                    left: '4rem'
-                }}></div>
             </div>
         </div>
     )

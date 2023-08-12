@@ -1,6 +1,5 @@
 .contact{
     display: flex;
-    /* height: 120vh; */
     align-items: center;
     justify-content: center;
     position: relative;
@@ -18,7 +17,6 @@
 }
 .box{
     width: 70%;
-    /* height: 80vh; */
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -58,18 +56,22 @@
     padding: 0 2rem 0 2rem;
 }
 .c-left>:nth-child(1){
-    color: #000;
+    color: white;
     font-size: 2.5rem;
     font-weight: bold;
 }
 .c-left>:nth-child(2){
-    color: #000;
+    color: #fab82b;
     font-size: 2.5rem;
     font-weight: bold;
+}
+.c-left>:nth-child(3){
+    color: white;
 }
 .c-left>:nth-child(4){
     font-size: 20px;
     margin-top: 4rem;
+    color: white;
 }
 .c-right{
     display: flex;

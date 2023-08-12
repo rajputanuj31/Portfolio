@@ -6,6 +6,7 @@
     justify-self: center;
     align-items: center;
     position: relative;
+    padding-top: 4rem;
 }
 .background{
     position: absolute;
@@ -30,19 +31,19 @@
     padding: 10px;   
 }
 .name>:nth-child(1){
-    color: rgb(19, 19, 29);
+    color: white;
     font-weight: bold;
     font-size: 3rem;
 }
 .name>:nth-child(2){
-    color: #2b2cfa;
+    color: #f4fa2b;
     font-weight: bold;
     font-size: 3rem;
 }
 .name>:nth-child(3){
     font-weight: 100;
     font-size: 14px;
-    color: black;
+    color: white;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -64,16 +65,17 @@
     margin-right: 90px;
     justify-content: center;
     align-items: center;
-    height: 55vh;
+    height: 50vh;
 }
 .right>*{
     position: absolute;
     z-index: 1;
 }
+.right>:nth-child(1){
+    transform: scale(0.7);
+}
 .right>:nth-child(2){
-    transform: scale(0.2);
-    left: -35%;
-    top: -70%;
+    visibility: hidden;
 }
 
 .blur{
