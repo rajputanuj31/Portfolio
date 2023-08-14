@@ -94,7 +94,7 @@
     .hero{
         display: flex;
         flex-direction: column;
-        /* height: 140vh; */
+        padding-top: 6rem;
     }
     .left{
         display: flex;
@@ -114,7 +114,7 @@
     .hero{
         display: flex;
         flex-direction: column;
-        /* height: 140vh; */
+        padding-top: 6rem;
     }
     .left{
         display: flex;

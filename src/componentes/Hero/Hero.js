@@ -10,7 +10,6 @@ import logo from "../../asset/logo4.png"
 import logo2 from "../../asset/logo5.png"
 import { motion } from "framer-motion"
 import Textanimation from "../Animation/TextAnimation"
-import Resume from "./AnujRajputResume.pdf"
 
 const Hero = () => {
     return (
@@ -23,8 +22,8 @@ const Hero = () => {
                     <span style={{fontSize:"25px"}}>Welcome to my portfolio showcasing <span style={{color:"#f4fa2b", fontWeight:"bold"}}>frontend</span> expertise 
                         and a journey 
                         into the transformative world of <span style={{color:"#f4fa2b", fontWeight:"bold"}}>blockchain...</span></span>
-                        <a href={Resume} download>
-                <button className='btn' style={{width: '8rem'}}>Download CV</button>
+                        <a href="https://drive.google.com/file/d/1MnJxXd6BzwqSipyMxDuEsezraJoKo3ro/view?usp=sharing" target=" ">
+                <button className='btn' style={{width: '8rem'}}>View Resume</button>
                 </a>
                     <div className="icons">
                         <motion.a href="https://github.com/rajputanuj31" target=" "

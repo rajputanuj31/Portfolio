@@ -21,9 +21,14 @@
     margin-left: 90px;
     color: white;
 }
-.Nav ul a:hover{
+.Nav ul:hover li{
    cursor: pointer;
-   transform: scale(1.1);
+   filter: blur(2px)
+}
+.Nav ul li:hover{
+    opacity: 1;
+    filter: blur(0px);
+    transform: scale(1.1);
 }
 .Nav-menu {
     display: flex;
