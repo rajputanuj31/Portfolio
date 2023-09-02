@@ -34,6 +34,7 @@
     height:100%;
     border-radius: 15px;
     object-fit:cover;
+    transition: all 0.2s ease-in-out;
 }
 .pr-right img:hover{
     transform: scale(1.03);
@@ -80,7 +81,7 @@
     }
     .pr{
         flex-direction: column;
-        padding: 10px;
+        padding: 20px;
     }
     .pr-left{
         padding-left: 0;
@@ -88,5 +89,15 @@
     .projects{
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .pr-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pr-right img{
+        margin-top: 2rem;
+        width: 90%;
+        height: 100%;
     }
 }

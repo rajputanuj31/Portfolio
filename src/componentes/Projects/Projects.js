@@ -14,10 +14,10 @@ const Projects = () => {
             <div className='pr-left' key={index}>
               <ul>
                 <h1 style={{color:"white",paddingBottom:"1rem"}}>{item.name}</h1>
-                <li>{item.subheading}</li>
-                <li>{item.techstack}</li>
-                <li><a href={item.github} style={{color:"white",textDecoration:"Underline"}}>Github</a></li>
-                <li><a href={item.Demo} style={{color:"white",textDecoration:"Underline"}}>Demo</a></li>
+                {item.subheading &&<li>{item.subheading}</li>}
+                {item.techstack &&<li>{item.techstack}</li>}
+                {item.github &&<li><a href={item.github} style={{color:"white",textDecoration:"Underline"}} target=" ">Github</a></li>}
+                {item.Demo && <li><a href={item.Demo} style={{color:"white",textDecoration:"Underline"}} target=" ">Demo</a></li>}
               </ul>
               </div>
               <div className='pr-right' key={index}>
