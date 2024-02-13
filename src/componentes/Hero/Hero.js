@@ -22,7 +22,7 @@ const Hero = () => {
                     <span style={{fontSize:"25px"}}>Welcome to my portfolio showcasing <span style={{color:"#f4fa2b", fontWeight:"bold"}}>frontend</span> expertise 
                         and a journey 
                         into the transformative world of <span style={{color:"#f4fa2b", fontWeight:"bold"}}>blockchain...</span></span>
-                        <a href="https://drive.google.com/file/d/1Sh1K2cnPqPxq1Pk0iV2Rw1M5u5smR1hb/view?usp=sharing" target=" ">
+                        <a href="https://drive.google.com/file/d/1SySyVHnM8yPIATeevKK6pE6aHEsWK9P9/view?usp=drive_link" target=" ">
                 <button className='btn' style={{width: '8rem'}}>View Resume</button>
                 </a>
                     <div className="icons">
