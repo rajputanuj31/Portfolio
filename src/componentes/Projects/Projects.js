@@ -1,6 +1,6 @@
-import React from 'react'
-import "./Projects.css"
-import details from '../../Details.js'
+import React from 'react';
+import "./Projects.css";
+import details from '../../Details.js';
 
 const Projects = () => {
   return (
@@ -8,26 +8,42 @@ const Projects = () => {
       <div className='recent-project'>
         <span>Recent Projects</span>
       </div>
-      {details.map((item,index)=>{
-        return (
-          <div className='pr'>
-            <div className='pr-left' key={index}>
-              <ul>
-                <h1 style={{color:"white",paddingBottom:"1rem"}}>{item.name}</h1>
-                {item.subheading &&<li>{item.subheading}</li>}
-                {item.techstack &&<li>{item.techstack}</li>}
-                {item.github &&<li><a href={item.github} style={{color:"white",textDecoration:"Underline"}} target=" ">Github</a></li>}
-                {item.Demo && <li><a href={item.Demo} style={{color:"white",textDecoration:"Underline"}} target=" ">Demo</a></li>}
-              </ul>
+      <div className="project-grid">
+        {details.map((item, index) => (
+          <div className='card-p' key={index}>
+            <div className="card-header">
+              <h1 className='project-title'>{item.name}</h1>
+              {item.timePeriod && <p className='project-time-period'>{item.timePeriod}</p>} {/* Added time period just below title */}
+            </div>
+            <div className='card-body'>
+              {item.subheading && <p className='project-subheading'>{item.subheading}</p>}
+              {item.techstack && (
+                <div className='project-techstack'>
+                  {item.techstack.map((tech, index) => (
+                    <span className='tech-item' key={index}>{tech}</span>
+                  ))}
+                </div>
+              )}
+            </div>
+            <div className='card-footer'>
+              <div className='project-links'>
+                {item.github && (
+                  <a href={item.github} target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-github"></i> GitHub
+                  </a>
+                )}
+                {item.Demo && (
+                  <a href={item.Demo} target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-external-link"></i> Live Demo
+                  </a>
+                )}
               </div>
-              <div className='pr-right' key={index}>
-              <img src={item.image} alt="" />
-              </div>
+            </div>
           </div>
-        )
-      }) }
+        ))}
+      </div>
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

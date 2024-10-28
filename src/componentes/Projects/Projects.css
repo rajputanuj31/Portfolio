@@ -1,103 +1,108 @@
 .projects {
-    align-items: center;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding: 0 5%;
 }
-.pr{
+
+.project-grid {
     display: flex;
-    flex-direction: row;
-    background-color: rgba(0, 0, 0, 0.493);
-    margin: 2rem;
-    padding: 2rem;
-    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
 }
-.pr-left{
-    flex: 1.2;
-    width: 100%;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    padding-left: 3rem;
-}
-.pr-left ul li{
-    text-decoration: none;
-    list-style-type: none;
-    padding: 3px;
-    font-size: 20px;
-    padding-left: 10px;
-}
-.pr-right{
-    flex: .8;
-}
-.pr-right img{
-    width:100%;
-    height:100%;
+
+.card-p {
+    background-color: rgb(208, 208, 208);
     border-radius: 15px;
-    object-fit:cover;
-    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.pr-right img:hover{
-    transform: scale(1.03);
+
+.card-p:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    padding: 1.5rem;
+    text-align: center;
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+    border-radius: 15px 15px 0 0;
 }
 
 
-
-.recent-project{
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.project-title {
+    font-size: 1.5rem;
+    color: #fff;
 }
-.recent-project span{
-    font-size: 3rem;
+.project-time-period{
+    color:#fff;
+
+}
+.card-body {
+    padding: 1.5rem;
+}
+
+.project-subheading, .project-techstack {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.card-footer {
+    padding: 1.5rem;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+.project-links a {
+    margin-right: 10px;
+    color: #007BFF;
+    text-decoration: none;
     font-weight: bold;
-    color: #2b8cfa;
-    
 }
 
-
-
-@media screen and (max-width: 480px){
-    .recent-project{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .projects{
-        padding: 0;
-    }
-    .pr{
-        flex-direction: column;
-        padding: 10px;
-    }
-    .pr-left{
-        padding-left: 0;
-    }
+.project-links a:hover {
+    color: #0056b3;
 }
-@media (min-width: 480px) and (max-width:900px){
-    .recent-project{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .pr{
-        flex-direction: column;
-        padding: 20px;
-    }
-    .pr-left{
-        padding-left: 0;
-    }
-    .projects{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .pr-right{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .pr-right img{
-        margin-top: 2rem;
-        width: 90%;
-        height: 100%;
+
+.recent-project span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.project-techstack {
+    display: flex;
+    flex-wrap: wrap; /* Allow technologies to wrap to a new line if needed */
+    gap: 10px; /* Space between each tech item */
+  }
+  
+  .tech-item {
+    background-color: #e0e0e0; /* Soft gray background */
+    border: 1px solid #d1d1d1; /* Light gray border for a subtle outline */
+    border-radius: 26px; /* Rounded corners for a softer look */
+    padding: 6px 12px; /* Comfortable padding */
+    font-size: 14px; /* Standard font size */
+    color: #333; /* Darker gray for text color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Gentle shadow for depth */
+    transition: background-color 0.2s, box-shadow 0.2s; /* Smooth transition for hover effect */
+    cursor: default; /* Default cursor */
+  }
+  
+  /* Hover effect with a classic touch */
+  .tech-item:hover {
+    background-color: #d5d5d5; /* Slightly darker gray on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow */
+  }
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
     }
 }
