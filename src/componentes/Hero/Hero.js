@@ -19,35 +19,36 @@ const Hero = () => {
                 <div className="name">
                     <span>Hi! I Am</span>
                     <Textanimation/>
-                    <span style={{fontSize:"25px"}}>Welcome to my portfolio showcasing <span style={{color:"#f4fa2b", fontWeight:"bold"}}>frontend</span> expertise 
-                        and a journey 
-                        into the transformative world of <span style={{color:"#f4fa2b", fontWeight:"bold"}}>blockchain...</span></span>
-                        <a href="https://drive.google.com/file/d/1_XKb3PIfQ_ot9iL4hmEemcR_VU7NPMeG/view?usp=sharing" target=" ">
-                <button className='btn' style={{width: '8rem'}}>View Resume</button>
-                </a>
+                    <span style={{fontSize:"25px"}}>
+                        Welcome to my portfolio showcasing <span style={{color:"#f4fa2b", fontWeight:"bold"}}>frontend</span> expertise 
+                        and a journey into the transformative world of <span style={{color:"#f4fa2b", fontWeight:"bold"}}>blockchain...</span>
+                    </span>
+                    <a href="https://drive.google.com/file/d/1_XKb3PIfQ_ot9iL4hmEemcR_VU7NPMeG/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <button className='btn' style={{width: '8rem'}}>View Resume</button>
+                    </a>
                     <div className="icons">
-                        <motion.a href="https://github.com/rajputanuj31" target=" "
+                        <motion.a href="https://github.com/rajputanuj31" target="_blank" rel="noopener noreferrer"
                             initial={{ opacity: 0, scale: 0, x: 5 }}
                             whileInView={{ opacity: 1, scale: 1, x: 0 }}
                             transition={{ duration: 0.2 }}
                         >
                             <img src={github} alt="github" />
                         </motion.a>
-                        <motion.a href="https://www.linkedin.com/in/anuj-rajput-054b69230/" target=" "
+                        <motion.a href="https://www.linkedin.com/in/anuj-rajput-054b69230/" target="_blank" rel="noopener noreferrer"
                             initial={{ opacity: 0, scale: 0, x: 10 }}
                             whileInView={{ opacity: 1, scale: 1, x: 0 }}
                             transition={{ duration: 0.2, delay: 0.25 }}
                         >
                             <img src={linkedin} alt="linkedin" />
                         </motion.a>
-                        <motion.a href="https://www.instagram.com/_its.rjpt_anuj/?igshid=Y2M0YTlkZGNmOQ%3D%3D" target=" "
+                        <motion.a href="https://www.instagram.com/___rajputanuj/" target="_blank" rel="noopener noreferrer"
                             initial={{ opacity: 0, scale: 0, x: 10 }}
                             whileInView={{ opacity: 1, scale: 1, x: 0 }}
                             transition={{ duration: 0.2, delay: 0.50 }}
                         >
                             <img src={insta} alt="Instagram" />
                         </motion.a>
-                        <motion.a href="https://twitter.com/iamRjptAnuj?t=sjByZgDasxqPysJUpUxZCg&s=08" target=" "
+                        <motion.a href="https://x.com/_rajputanuj" target="_blank" rel="noopener noreferrer"
                             initial={{ opacity: 0, scale: 0, x: 10 }}
                             whileInView={{ opacity: 1, scale: 1, x: 0 }}
                             transition={{ duration: 0.2, delay: 0.75 }}
