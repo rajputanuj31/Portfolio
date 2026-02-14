@@ -1,20 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.dc46da12.css",
-    "main.js": "/Portfolio/static/js/main.3d2219d2.js",
-    "static/media/background.jpg": "/Portfolio/static/media/background.d2daeea461696629d5bf.jpg",
-    "static/media/background4.jpg": "/Portfolio/static/media/background4.f192b97409f6a67c16fb.jpg",
-    "static/media/my-image.png": "/Portfolio/static/media/my-image.8ba30760b2ca8e30f582.png",
-    "static/media/twitter.png": "/Portfolio/static/media/twitter.62969cb24dace963f25f.png",
-    "static/media/github-icon.png": "/Portfolio/static/media/github-icon.8ba9d1c95694354c933b.png",
-    "static/media/logo5.png": "/Portfolio/static/media/logo5.fd82ac26d479f715c1c1.png",
-    "static/media/Insta.png": "/Portfolio/static/media/Insta.82deb0e0e8dcd7593ac8.png",
+    "main.css": "/Portfolio/static/css/main.80b9090c.css",
+    "main.js": "/Portfolio/static/js/main.a79f0bdb.js",
+    "static/media/Anuj_Rajput.jpeg": "/Portfolio/static/media/Anuj_Rajput.00ae4ac9988fd0b12274.jpeg",
     "index.html": "/Portfolio/index.html",
-    "main.dc46da12.css.map": "/Portfolio/static/css/main.dc46da12.css.map",
-    "main.3d2219d2.js.map": "/Portfolio/static/js/main.3d2219d2.js.map"
+    "main.80b9090c.css.map": "/Portfolio/static/css/main.80b9090c.css.map",
+    "main.a79f0bdb.js.map": "/Portfolio/static/js/main.a79f0bdb.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc46da12.css",
-    "static/js/main.3d2219d2.js"
+    "static/css/main.80b9090c.css",
+    "static/js/main.a79f0bdb.js"
   ]
 }
