@@ -6,8 +6,14 @@ const stats = [
   {
     number: '7+',
     label: 'Hackathon Wins',
-    detail: 'EthIndia, Unfold, MLH events',
+    detail: 'EthIndia, Unfold, MLH — 500–2,000 teams/event',
     icon: '\uD83C\uDFC6',
+  },
+  {
+    number: '1',
+    label: 'Published AI App',
+    detail: 'PageChat live on Chrome Web Store',
+    icon: '\uD83E\uDD16',
   },
   {
     number: '35+',

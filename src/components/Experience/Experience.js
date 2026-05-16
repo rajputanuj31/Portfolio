@@ -33,9 +33,8 @@ const Experience = () => {
               <div className="exp-meta">
                 <h3>Frontend Developer</h3>
                 <span className="exp-company">GlueX Protocol</span>
-                <span className="exp-date">Jan 2025 – Present</span>
+                <span className="exp-date">Jan 2025 – Jan 2026</span>
               </div>
-              <span className="exp-status">Current</span>
             </div>
 
             <ul className="exp-details">

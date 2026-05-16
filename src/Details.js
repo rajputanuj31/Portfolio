@@ -1,5 +1,14 @@
 const details = [
   {
+  name: "PageChat — AI Chrome Extension",
+  subheading:
+    "Built and published a Chrome extension (MV3) that lets users chat with any webpage using a RAG pipeline. Backend: FastAPI + LangChain with FAISS vector store, RecursiveCharacterTextSplitter, and WebBaseLoader. Frontend: React + TypeScript content script injected into pages; chat history persisted per URL via chrome.storage.",
+  techstack: ["React.js", "TypeScript", "FastAPI", "LangChain", "FAISS", "OpenAI API", "Python"],
+  github: "https://github.com/rajputanuj31/PageChat",
+  Demo: "https://chromewebstore.google.com/detail/pagechat/clkgpcmjodnbcapllcihbnaflcjapini",
+  timePeriod: "Feb '26 – Present",
+ },
+  {
     name: "ZK-Insurance",
     subheading:
       "Engineered a decentralized insurance platform leveraging ZK-proofs and MPC for privacy-preserving claims. Integrated Anon Aadhaar for secure identity verification and The Graph subgraphs for efficient data querying.",
@@ -42,11 +51,11 @@ const details = [
   {
     name: "OneClickAuth (NPM)",
     subheading:
-      "Published a full-stack npm package for secure authentication using MERN stack. Integrated React Router for client navigation and JWT for secure sessions. Achieved 700+ weekly downloads.",
+      "Built and published an npm authentication package enabling plug-and-play JWT auth for React/Node apps. Reduces auth setup from ~200 lines of boilerplate to a single import. Handles client routing, token refresh, and backend middleware.",
     techstack: ["React", "MongoDB", "Node.js", "Redux", "JWT"],
     github: "https://github.com/rajputanuj31/oneclickauth",
     Demo: "https://www.npmjs.com/package/oneclickauth",
-    timePeriod: "Sep '24",
+    timePeriod: "Sep '24"
   },
   {
     name: "Open Source — Joomla!",

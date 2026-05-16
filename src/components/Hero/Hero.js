@@ -22,11 +22,11 @@ const Hero = () => {
           <h1 className="hero-name">
             Anuj <span className="gradient-text">Rajput</span>
           </h1>
-          <h2 className="hero-title">Blockchain Developer &amp; Full Stack Engineer</h2>
+          <h2 className="hero-title">Software Engineer · AI Applications &amp; Frontend</h2>
           <p className="hero-description">
-            Building decentralized applications and scalable web solutions.
-            Currently crafting institutional-grade Web3 products at{' '}
-            <span className="highlight">GlueX Protocol</span>.
+            Frontend & AI Engineer building high-performance React/Next.js apps and AI-powered products.
+            Built and published <span className="highlight">PageChat</span>, a RAG-based Chrome extension.
+            Winner of <span className="highlight">7 global hackathons</span> including EthIndia.
           </p>
 
           <div className="hero-cta">
