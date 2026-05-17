@@ -7,29 +7,116 @@
     <meta name="theme-color" content="#060611" />
     <meta
       name="description"
-      content="Anuj Rajput — Blockchain Developer & Full Stack Engineer. Building decentralized applications and scalable web solutions."
+      content="Anuj Rajput — Software Engineer specializing in AI Applications & Frontend. Builder of PageChat (RAG Chrome extension), winner of 7 global hackathons including EthIndia."
     />
     <meta name="author" content="Anuj Rajput" />
-    <meta name="keywords" content="Anuj Rajput, Blockchain Developer, Full Stack Engineer, Web3, React, Next.js, Solidity, Portfolio" />
+    <meta name="keywords" content="Anuj Rajput, Software Engineer, AI Engineer, Frontend Developer, React, Next.js, FastAPI, LangChain, Portfolio" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Anuj Rajput — Blockchain Developer & Full Stack Engineer" />
-    <meta property="og:description" content="Building decentralized applications and scalable web solutions. Currently at GlueX Protocol." />
+    <meta property="og:title" content="Anuj Rajput — Software Engineer · AI Applications & Frontend" />
+    <meta property="og:description" content="Builder of PageChat (RAG Chrome extension). Winner of 7 global hackathons including EthIndia. Frontend & AI Engineer." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://rajputanuj31.github.io/Portfolio" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Anuj Rajput — Blockchain Developer" />
-    <meta name="twitter:description" content="Building decentralized applications and scalable web solutions." />
+    <meta name="twitter:title" content="Anuj Rajput — Software Engineer · AI & Frontend" />
+    <meta name="twitter:description" content="Builder of PageChat (RAG Chrome extension). Winner of 7 global hackathons including EthIndia." />
     <meta name="twitter:creator" content="@_rajputanuj" />
 
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Anuj Rajput | Blockchain Developer & Full Stack Engineer</title>
+    <title>Anuj Rajput | Software Engineer · AI Applications & Frontend</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- Static content for web scrapers and AI tools like PageChat -->
+    <div style="display:none" aria-hidden="true" id="static-content">
+      <h1>Anuj Rajput — Software Engineer · AI Applications & Frontend</h1>
+      <p>Frontend & AI Engineer with 1+ year of production experience building high-performance React/Next.js applications and AI-powered products. Winner of 7 global hackathons including EthIndia.</p>
+      <p>Contact: rajputanuj041@gmail.com | GitHub: github.com/rajputanuj31 | LinkedIn: linkedin.com/in/anuj-rajput-054b69230</p>
+
+      <h2>Work Experience</h2>
+      <h3>Frontend Developer — GlueX Protocol (Jan 2025 – Jan 2026)</h3>
+      <ul>
+        <li>Built real-time DeFi portfolio dashboard in Next.js 16, displaying live positions across 10+ protocols — reduced load time by 40% via code splitting.</li>
+        <li>Integrated TanStack Query for real-time data synchronization, reducing data loading times by 30%.</li>
+        <li>Implemented secure wallet management and seamless network switching using Privy and Wagmi v2.</li>
+        <li>Redesigned the embeddable widget system, reducing bundle size by 25% and improving load time on 3rd-party integrations.</li>
+        <li>Managed global state across Dapp, Studio, and Terminal using Zustand; set up automated CI/CD pipelines on AWS Amplify.</li>
+      </ul>
+
+      <h2>Projects</h2>
+      <h3>PageChat — AI Chrome Extension (Feb 2026 – Present)</h3>
+      <p>Tech: React.js, TypeScript, FastAPI, LangChain, FAISS, OpenAI API, Python</p>
+      <ul>
+        <li>Built and published a Chrome extension (MV3) that lets users chat with any webpage using a RAG pipeline.</li>
+        <li>Backend: FastAPI + LangChain with FAISS vector store, RecursiveCharacterTextSplitter, and WebBaseLoader.</li>
+        <li>Frontend: React + TypeScript content script injected into pages; chat history persisted per URL via chrome.storage.</li>
+        <li>Live on Chrome Web Store: chromewebstore.google.com/detail/pagechat/clkgpcmjodnbcapllcihbnaflcjapini</li>
+        <li>GitHub: github.com/rajputanuj31/PageChat</li>
+      </ul>
+
+      <h3>ZK-Insurance — EthIndia'24 (3rd Place, Dec 2024)</h3>
+      <p>Tech: Next.js, The Graph, ZK-Proofs, Solidity</p>
+      <ul>
+        <li>Engineered a decentralized insurance platform leveraging ZK-proofs and MPC for privacy-preserving claims.</li>
+        <li>Integrated Anon Aadhaar for secure identity verification and The Graph subgraphs for efficient data querying.</li>
+      </ul>
+
+      <h3>Proof of Follower — Unfold'24 (Prize Winner, Dec 2024)</h3>
+      <p>Tech: Move, Aptos, TypeScript, Next.js</p>
+      <ul>
+        <li>Built a decentralized social finance platform on Aptos allowing users to mint profile-based assets.</li>
+        <li>Implemented on-chain scoring via Oracles and integrated Farcaster/Okto for social identity verification.</li>
+      </ul>
+
+      <h3>ezCred — EthIndia'23 (3rd Place, Dec 2023)</h3>
+      <p>Tech: Next.js, Solidity, TypeScript, Ethers.js</p>
+      <ul>
+        <li>Used ERC-4337 for seamless user onboarding and gas sponsorship.</li>
+        <li>Implemented the 1inch Token Plugin to eliminate aggregated oracles, reducing gas costs significantly.</li>
+      </ul>
+
+      <h3>Token Hunt — MLH Web3Apps'23 (1st Place, Aug 2023)</h3>
+      <p>Tech: Solidity, React, JavaScript, Ethers.js</p>
+      <ul>
+        <li>Built an NFT Raffle platform using AI-generated images for NFTs and Verifiable Random Functions (VRFs) for a fair raffle system.</li>
+      </ul>
+
+      <h3>OneClickAuth (NPM Package, Sep 2024)</h3>
+      <p>Tech: React, MongoDB, Node.js, Redux, JWT</p>
+      <ul>
+        <li>Built and published an npm authentication package enabling plug-and-play JWT auth for React/Node apps.</li>
+        <li>Reduces auth setup from ~200 lines of boilerplate to a single import.</li>
+        <li>Handles client routing, token refresh, and backend middleware.</li>
+      </ul>
+
+      <h3>Open Source — Joomla! (Jan 2023 – Dec 2023)</h3>
+      <p>Tech: Cypress, JavaScript, PHP, Automation</p>
+      <ul>
+        <li>Authored and maintained automated E2E test scripts using Cypress, improving CI/CD reliability.</li>
+        <li>Successfully merged 35+ pull requests and implemented drag-and-drop functionality for file management.</li>
+      </ul>
+
+      <h2>Technical Skills</h2>
+      <p>Languages: TypeScript, JavaScript, Python</p>
+      <p>Frameworks: Next.js, React 19, FastAPI, LangChain, Tailwind CSS, Node.js</p>
+      <p>Web3: Wagmi v2, Viem, Ethers.js, Privy, The Graph</p>
+      <p>AI & Tools: OpenAI API, FAISS, TanStack Query, Zustand, AWS Amplify, Git, PostHog, Framer Motion</p>
+
+      <h2>Education</h2>
+      <p>Indian Institute of Information Technology, Pune — B.Tech in Electronics and Communication Engineering (2021–2025), CGPA: 7.28</p>
+
+      <h2>Achievements</h2>
+      <ul>
+        <li>Won 7 global hackathons including EthIndia, Unfold, and MLH events, competing against 500–2,000 teams per event.</li>
+        <li>Published PageChat on Chrome Web Store — a production AI application serving real users.</li>
+        <li>Merged 35+ pull requests in Joomla! CMS open source project.</li>
+        <li>Solved 300+ DSA problems on GFG and LeetCode.</li>
+      </ul>
+    </div>
   </body>
 </html>
