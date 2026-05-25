@@ -39,22 +39,19 @@ const Experience = () => {
 
             <ul className="exp-details">
               <li>
-                <strong>GlueX Terminal:</strong> Built the institutional-grade portfolio dashboard using Next.js 16.
+                Built real-time DeFi portfolio dashboard in Next.js 16, displaying live positions across 10+ protocols — reduced load time by 40% via code splitting.
               </li>
               <li>
-                Integrated TanStack Query for real-time data synchronization and PostHog for product analytics to track user engagement.
+                Integrated TanStack Query for real-time data synchronization, reducing data loading times by 30% and improving application responsiveness.
               </li>
               <li>
-                Implemented secure wallet management and network switching using Privy and Wagmi v2.
+                Implemented secure wallet management and seamless network switching using Privy and Wagmi v2, strengthening user security and overall experience.
               </li>
               <li>
-                <strong>GlueX Widget:</strong> Redesigned the embeddable widget system, reduced bundle size and created fluid navigation animations using Tailwind CSS and Framer Motion.
+                Redesigned the embeddable widget system, reducing bundle size by 25% and improving load time on 3rd-party integrations.
               </li>
               <li>
-                Managed global state across Dapp, Studio, and Terminal using Zustand; set up automated CI/CD pipelines on AWS Amplify.
-              </li>
-              <li>
-                Maintained code quality through strict TypeScript typing and modular component architecture.
+                Built swap UI for DEX aggregation, displaying optimal routing across multiple liquidity sources for best price execution.
               </li>
             </ul>
 

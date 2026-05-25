@@ -6,22 +6,35 @@ const skillCategories = [
   {
     title: 'Languages',
     icon: '{ }',
-    skills: ['TypeScript', 'JavaScript', 'Solidity', 'Python', 'Rust', 'C++'],
+    skills: ['TypeScript', 'JavaScript', 'Python'],
   },
   {
     title: 'Frameworks',
     icon: '< >',
-    skills: ['Next.js', 'React', 'Tailwind CSS', 'Node.js', 'Express'],
+    skills: ['Next.js', 'React 19', 'FastAPI', 'LangChain', 'LangGraph', 'Tailwind CSS', 'Node.js'],
   },
   {
     title: 'Web3',
     icon: '\u039E',
-    skills: ['Wagmi', 'Viem', 'Ethers.js', 'Privy', 'The Graph'],
+    skills: ['Wagmi v2', 'Viem', 'Ethers.js', 'Privy', 'The Graph'],
   },
   {
-    title: 'Tools & Cloud',
+    title: 'AI & Tools',
     icon: '\u2699',
-    skills: ['AWS Amplify', 'Zustand', 'TanStack Query', 'Framer Motion', 'Git', 'PostHog', 'Cypress'],
+    skills: [
+      'OpenAI API',
+      'Pinecone',
+      'FAISS',
+      'RAG',
+      'MCP',
+      'LangSmith',
+      'TanStack Query',
+      'Zustand',
+      'AWS Amplify',
+      'Git',
+      'PostHog',
+      'Framer Motion',
+    ],
   },
 ];
 

@@ -24,8 +24,8 @@ const Hero = () => {
           </h1>
           <h2 className="hero-title">Software Engineer · AI Applications &amp; Frontend</h2>
           <p className="hero-description">
-            Frontend & AI Engineer building high-performance React/Next.js apps and AI-powered products.
-            Built and published <span className="highlight">PageChat</span>, a RAG-based Chrome extension.
+            Software Engineer with 1+ year of production experience building high-performance React/Next.js applications and AI-powered products.
+            Built and published <span className="highlight">PageChat</span>, a RAG-based Chrome extension using LangChain and FastAPI.
             Winner of <span className="highlight">7 global hackathons</span> including EthIndia.
           </p>
 
