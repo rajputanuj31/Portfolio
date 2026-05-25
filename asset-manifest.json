@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f42437c2.css",
-    "main.js": "/Portfolio/static/js/main.3582d0a7.js",
+    "main.js": "/Portfolio/static/js/main.679beda1.js",
     "static/media/Anuj_Rajput.jpeg": "/Portfolio/static/media/Anuj_Rajput.00ae4ac9988fd0b12274.jpeg",
     "index.html": "/Portfolio/index.html",
     "main.f42437c2.css.map": "/Portfolio/static/css/main.f42437c2.css.map",
-    "main.3582d0a7.js.map": "/Portfolio/static/js/main.3582d0a7.js.map"
+    "main.679beda1.js.map": "/Portfolio/static/js/main.679beda1.js.map"
   },
   "entrypoints": [
     "static/css/main.f42437c2.css",
-    "static/js/main.3582d0a7.js"
+    "static/js/main.679beda1.js"
   ]
 }
